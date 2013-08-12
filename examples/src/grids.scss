@@ -1,19 +1,19 @@
 @import "../../dist/my-sassy-grid.scss";
 
 .grid {
-	@include grid;
+    @include grid;
 
-	.column {
-		@include grid-column;
-	}
+    .column {
+        @include grid-column;
+    }
 
-	.row {
-		@include grid-row;
-	}
+    .row {
+        @include grid-row;
+    }
 }
 
 @each $columns in 3, 12 {
-	.columns-#{ $columns } {
-		@include grid-span-classes( $columns );
-	}
+    .columns-#{ $columns } {
+        @include grid-span-classes( $columns );
+    }
 }

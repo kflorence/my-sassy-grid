@@ -14,8 +14,8 @@ a {
 }
 
 body {
-	background-color: #DD7FB4;
-	color: #000;
+    background-color: #DD7FB4;
+    color: #000;
     font: 13px/18px Ariel, Helvetica, sans-serif;
     margin: 0;
 }
@@ -57,14 +57,14 @@ nav {
 }
 
 section {
-	background-color: #FFF;
-	border-radius: 10px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     margin-bottom: 20px;
     padding: 20px;
 
     &:last-of-type {
-    	margin-bottom: 0;
+        margin-bottom: 0;
     }
 }
 
@@ -81,29 +81,29 @@ ul {
 .examples {
     padding: 0 20px;
 
-	p {
-	    background-color: #EEE;
-	    line-height: 1.4em;
-	    margin: 0;
-	    padding: 10px;
+    p {
+        background-color: #EEE;
+        line-height: 1.4em;
+        margin: 0;
+        padding: 10px;
 
-	    &:first-of-type {
-	        border-top-left-radius: 5px;
-	        border-top-right-radius: 5px;
-	    }
+        &:first-of-type {
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
 
-	    &:last-of-type {
-	        border-bottom-left-radius: 5px;
-	        border-bottom-right-radius: 5px;
-	    }
-	}
+        &:last-of-type {
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    }
 }
 
 .footer p {
-	color: #FFCAE8;
-	margin: 0;
-	padding: 20px;
-	text-align: center;
+    color: #FFCAE8;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
 }
 
 .header {
