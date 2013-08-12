@@ -1,0 +1,7 @@
+@function -grid-column-width( $span: 1, $columns: $grid-columns ) {
+    @return percentage( $span / $columns );
+}
+
+@function -grid-gutter-width( $width: $grid-gutter-width, $span: 1 ) {
+    @return $width * $span;
+}

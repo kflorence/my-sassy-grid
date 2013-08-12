@@ -1,0 +1,41 @@
+{
+    "name": "my-sassy-grid",
+    "version": "1.0.0",
+    "title": "My Sassy Grid",
+    "author": {
+        "name": "Kyle Florence",
+        "url": "https://github.com/kflorence/"
+    },
+    "licenses": [
+        {
+            "type": "GPL",
+            "url": "https://raw.github.com/kflorence/my-sassy-grid/master/license-gpl"
+        },
+        {
+            "type": "MIT",
+            "url": "https://raw.github.com/kflorence/my-sassy-grid/master/license-mit"
+        }
+    ],
+    "dependencies": {},
+    "description": "Lightweight Sass grid with fluid columns and fixed gutters",
+    "keywords": [
+        "css",
+        "css3",
+        "fluid",
+        "grid",
+        "gutters",
+        "lightweight",
+        "liquid",
+        "small",
+        "tiny"
+    ],
+    "demo": "http://kflorence.github.com/my-sassy-grid/",
+    "homepage": "https://github.com/kflorence/my-sassy-grid",
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-concat": "~0.3.0",
+        "grunt-contrib-csslint": "~0.1.2",
+        "grunt-contrib-sass": "~0.4.1",
+        "grunt-contrib-watch": "~0.5.1"
+    }
+}
