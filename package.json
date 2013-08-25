@@ -31,6 +31,10 @@
     ],
     "demo": "http://kflorence.github.com/my-sassy-grid/",
     "homepage": "https://github.com/kflorence/my-sassy-grid",
+    "repository": {
+        "type": "git",
+	"url": "https://github.com/kflorence/my-sassy-grid.git"
+    },
     "devDependencies": {
         "grunt": "~0.4.1",
         "grunt-contrib-concat": "~0.3.0",
